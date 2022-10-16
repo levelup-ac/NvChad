@@ -3,7 +3,7 @@ local M = {}
 M.setup_lsp = function(attach, capabilities)
 
    local lspconfig = require "lspconfig"
-   local servers = { "yamlls", "dockerls", "jsonls", "elixirls" }
+   local servers = { "yamlls", "dockerls", "jsonls", "elixirls", "pylsp" }
 
    for _, lsp in ipairs(servers) do
 
