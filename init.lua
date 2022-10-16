@@ -32,5 +32,4 @@ end
 pcall(require, "custom")
 
 require("core.utils").load_mappings()
-require'lspconfig'.pylsp.setup{}
 
